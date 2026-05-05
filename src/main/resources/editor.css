@@ -1,0 +1,29 @@
+/* ── Editor base ──────────────────────────────────────────────────────────── */
+.adoc-editor {
+    -fx-font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+    -fx-font-size: 14px;
+    -fx-background-color: #1e1e2e;
+    -fx-text-fill: #cdd6f4;
+}
+
+.adoc-editor .text {
+    -fx-fill: #cdd6f4;
+}
+
+/* ── Syntax highlighting classes ─────────────────────────────────────────── */
+.adoc-heading .text   { -fx-fill: #89b4fa; -fx-font-weight: bold; }
+.adoc-bold .text      { -fx-fill: #f38ba8; -fx-font-weight: bold; }
+.adoc-italic .text    { -fx-fill: #a6e3a1; -fx-font-style: italic; }
+.adoc-code .text      { -fx-fill: #fab387; -fx-font-family: monospace; }
+.adoc-block .text     { -fx-fill: #94e2d5; }
+.adoc-comment .text   { -fx-fill: #6c7086; -fx-font-style: italic; }
+.adoc-attribute .text { -fx-fill: #cba6f7; }
+.adoc-listitem .text  { -fx-fill: #f9e2af; }
+
+/* ── Line numbers ────────────────────────────────────────────────────────── */
+.lineno {
+    -fx-background-color: #181825;
+    -fx-text-fill: #585b70;
+    -fx-padding: 0 8 0 8;
+    -fx-font-size: 12px;
+}
